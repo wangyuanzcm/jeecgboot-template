@@ -107,8 +107,6 @@ templatepath=/jeecg/code-template
 
 注意对应的代码位置在：
 ```
-server\jeecg-module-system\jeecg-system-biz\src\main\resources\jeecg\code-template
-```
 server\jeecg-module-system\jeecg-system-start\config
 ```
 
