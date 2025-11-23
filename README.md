@@ -95,7 +95,7 @@ mvn archetype:generate ^
 ```
 project_path=D:\\github_repo\\tongnian_order\\server\\jeecg-boot-module\\jeecg-module-tongnian
 ui_project_path=D:\\github_repo\\tongnian_order\\web
-bussi_package=org.jeecgframework.boot3.tongnian
+bussi_package=org.jeecg
 ```
 
 默认情况下，代码生成器与平台共用同一个数据库。所以这里的数据库不需要修改
