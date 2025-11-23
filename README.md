@@ -70,6 +70,14 @@ mvn archetype:generate ^
     <version>${jeecgboot.version}</version>
 </dependency>
 ```
+注意需要补充模块依赖：
+
+```
+    <dependency>
+      <groupId>org.jeecgframework.boot3</groupId>
+      <artifactId>jeecg-boot-base-core</artifactId>
+    </dependency>
+```
 
 最后运行：mvn clean install
 
@@ -109,6 +117,7 @@ templatepath=/jeecg/code-template
 ```
 server\jeecg-module-system\jeecg-system-start\config
 ```
+
 
 ### 在低代码-online表单开发中进行建表
 
